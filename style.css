@@ -16,6 +16,22 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    margin: 1% 0;
+}
+
+span {
+    color: whitesmoke;
+}
+
+p {
+    color: #3f3f3f;
+}
+
 /* Nav Bar */
 
 header {
@@ -51,6 +67,47 @@ a {
     margin-right: 0.75rem;
 }
 
+a:hover,
+a:active {
+    color: #FFDF6C;
+    transition-duration: 0.5s;
+}
+
 .icon-ref {
     color: #FFDF6C
+}
+
+.icon-ref:hover,
+.icon-ref:active {
+    color: whitesmoke;
+}
+
+/* Main */
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FFDF6C;
+    position: fixed;
+    top: 45%;
+    margin-left: 19.65%;
+    z-index: 10;
+}
+
+.line {
+    border-left: 0.5px groove #FFDF6C;
+    position: fixed;
+    height: 55%;
+    top: 45%;
+    margin-left: 20%;
+}
+
+main {
+    margin: 19% 0 0% 20%;
+    padding-left: 4%;
+}
+
+.about {
+    margin-top: 50%;
 }
