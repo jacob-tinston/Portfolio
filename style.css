@@ -9,3 +9,9 @@
 html {
     font-size: 16px;
 }
+
+body {
+    background-color: #101010;
+    color: #FFDF6C;
+    font-family: 'Roboto Mono', monospace;
+}
