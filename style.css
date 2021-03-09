@@ -251,6 +251,11 @@ footer {
 
     /* Main */
 
+    section,
+    footer {
+        margin-top: 200%;
+}
+
     .line {
         height: 65%;
         top: 35%;
