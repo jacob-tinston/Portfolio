@@ -19,7 +19,7 @@ This website gets updated regularly and in line with my current ability.
 * Javascript
 
 ## Status
-Project is: _in-progress_
+Project is: _finished_
 
 ## Contact
 Created by: Jacob  <br/>
