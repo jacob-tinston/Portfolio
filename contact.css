@@ -38,3 +38,88 @@ span {
 p {
     color: #3f3f3f;
 }
+
+/* Nav Bar */
+
+#one {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    padding-top: 1%;
+}
+
+#page-identity {
+    display: block;
+    width: auto;
+    font-size: 1.2rem;
+    margin-left: 2%;
+}
+
+nav {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    margin-right: 1%;
+    z-index: 10;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 0.75rem;
+}
+
+a:hover,
+a:active {
+    color: #FFDF6C;
+    transition-duration: 0.5s;
+}
+
+.icon-ref {
+    color: #FFDF6C
+}
+
+.icon-ref:hover,
+.icon-ref:active {
+    color: whitesmoke;
+}
+
+#menu-icon {
+    display: none;
+}
+
+#cross-icon {
+    display: none;
+}
+
+/* Main */
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FFDF6C;
+    position: fixed;
+    top: 45%;
+    margin-left: 19.65%;
+    z-index: 10;
+}
+
+.line {
+    border-left: 0.5px groove #FFDF6C;
+    position: fixed;
+    height: 55%;
+    top: 45%;
+    margin-left: 20%;
+}
+
+main {
+    margin: 19% 0 0% 20%;
+    padding-left: 4%;
+}
