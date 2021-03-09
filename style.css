@@ -215,6 +215,7 @@ footer {
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
+        z-index: 99;
     }
 
     #nav > a,
@@ -238,7 +239,7 @@ footer {
     }
 
     #page-identity {
-        z-index: 100;
+        z-index: 1;
     }
 
     a {
@@ -259,12 +260,14 @@ footer {
     .line {
         height: 65%;
         top: 35%;
-        margin-left: 15%
+        margin-left: 15%;
+        z-index: 1;
     }
 
     .circle {
         top: 35%;
         margin-left: 13.5%;
+        z-index: 2;
     }
 
     .title {
