@@ -208,10 +208,10 @@ footer {
 
     #nav {
         display: none;
-        height: 45%;
+        height: 200%;
         width: 100%;
         position: fixed;
-        background-color: rgb(0, 0, 0, 0.5);
+        background-color: rgb(0, 0, 0, 0.7);
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
@@ -219,7 +219,7 @@ footer {
 
     #nav > a,
     div {
-        margin-bottom: 2%;
+        margin-bottom: 5%;
         margin-right: 5%;
         font-size: 1rem;
     }
