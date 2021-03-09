@@ -3,6 +3,7 @@
 <html>
     <head>
         <title>Jacob.is()</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./style.css" type="text/css" rel="stylesheet">
         <link rel="icon" href="portfolio-icon.png">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,13 +14,17 @@
         <a name="top"></a>
         <header id="one">
             <h1 id="page-identity">.is()</h1>
-            <nav>
+            <nav id="nav">
                 <a id="is">.is()</a>
                 <a>.projects()</a>
                 <a>.contact()</a>
-                <a class="icon-ref"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a class="icon-ref" href="https://github.com/jacob-tinston" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <div>
+                    <a class="icon-ref"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a class="icon-ref" href="https://github.com/jacob-tinston" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                </div>
             </nav>
+            <i id="menu-icon" class="fas fa-bars fa-2x"></i>
+            <i id="cross-icon" class="fas fa-times fa-2x"></i>
         </header>
         <header id="two">
             <nav id="sub-nav">
@@ -34,7 +39,7 @@
         <div class="line"></div>
         <a name="name"></a>
         <main>
-            <h1><span>name</span>.is()</h1>
+            <h1 class="title"><span>name</span>.is()</h1>
             <h2><em>Jacob Tinston</em></h2>
             <p>// Junior Full-Stack <br>
                 Web Developer</p>
@@ -55,20 +60,22 @@
             </section>
             <a name="skills"></a>
             <section class="skills">
-                <h1><span>my.</span>skills('programming')</h1>
-                <h2>${<span>'Javascript'</span>}</h2>
-                <h2>${<span>'HTML'</span>}</h2>
-                <h2>${<span>'CSS'</span>}</h2>
-                <h2>${<span>'Markdown'</span>}</h2>
-                <h2>${<span>'Git / Github'</span>}</h2>
+                <h1><span>code.</span>skills = [</h1>
+                <h2>${<span>'Javascript'</span>},</h2>
+                <h2>${<span>'HTML'</span>},</h2>
+                <h2>${<span>'CSS'</span>},</h2>
+                <h2>${<span>'Markdown'</span>},</h2>
+                <h2>${<span>'Git / Github'</span>},</h2>
                 <h2>${<span>'Debugging'</span>}</h2>
+                <h1>]</h1>
             </section>
             <section class="skills">
-                <h1><span>more.</span>skills('personal')</h1>
-                <h2>${<span>'Strategic-thinking'</span>}</h2>
-                <h2>${<span>'Problem-solving'</span>}</h2>
-                <h2>${<span>'Team-working'</span>}</h2>
+                <h1><span>my.</span>skills = [</h1>
+                <h2>${<span>'Strategic-thinking'</span>},</h2>
+                <h2>${<span>'Problem-solving'</span>},</h2>
+                <h2>${<span>'Team-working'</span>},</h2>
                 <h2>${<span>'Motivated'</span>}</h2>
+                <h1>]</h1>
             </section>
             <footer>
                 <h1><span>Feel free to check out 

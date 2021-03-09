@@ -11,6 +11,8 @@ html {
 }
 
 body {
+    width: 100%;
+    height: auto;
     background-color: #101010;
     color: #FFDF6C;
     font-family: 'Roboto Mono', monospace;
@@ -88,6 +90,14 @@ a:active {
     color: whitesmoke;
 }
 
+#menu-icon {
+    display: none;
+}
+
+#cross-icon {
+    display: none;
+}
+
 #two {
     display: none;
     height: 30%;
@@ -157,4 +167,95 @@ main {
 
 footer {
     margin-bottom: 13%;
+}
+
+/* Mobile Version */
+
+@media only screen and (max-width: 450px) and (min-width: 200px) {
+    
+    /* Universal */
+    
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        width: 70%;
+        margin: 19% 0 0% 25%;
+        padding-left: 0;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        margin-bottom: 3%;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin-bottom: 3%;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    /* Nav Bar */
+
+    header {
+        height: 100%;
+    }
+
+    #nav {
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        background-color: rgb(0, 0, 0, 0.5);
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    #menu-icon {
+        display: block;
+        margin-right: 5%;
+        margin-top: -1%;
+    }
+
+    #cross-icon {
+        display: none;
+        margin-right: 5%;
+        margin-top: -1%;
+        z-index: 100;
+    }
+
+    a {
+        margin-right: 0.25rem;
+    }
+
+    #two {
+        top: 200%;
+    }
+
+    /* Main */
+
+    .line {
+        height: 65%;
+        top: 35%;
+    }
+
+    .circle {
+        top: 35%;
+        margin-left: 19%;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    main {
+        margin: 50% 5% 0 20%;
+        padding-left: 7%;
+    }
 }
