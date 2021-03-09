@@ -275,7 +275,8 @@ footer {
     }
 
     main {
-        margin: 40% 0 0 15%;
+        width: 80%;
+        margin: 40% -10% 0 15%;
         padding-left: 7%;
     }
 
