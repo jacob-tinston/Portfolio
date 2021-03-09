@@ -219,9 +219,9 @@ footer {
 
     #nav > a,
     div {
-        margin-bottom: 5%;
+        margin-bottom: 15%;
         margin-right: 5%;
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     #menu-icon {
@@ -274,5 +274,11 @@ footer {
     main {
         margin: 40% 5% 0 15%;
         padding-left: 7%;
+    }
+
+    /* Footer */
+
+     footer {
+        margin-bottom: 60%;
     }
 }
