@@ -135,3 +135,11 @@ main {
     margin-top: 0%;
     width: 100%;
 }
+
+.project-lnk {
+    color:#FFDF6C;
+}
+
+.project-lnk:hover {
+    text-decoration: underline;
+}
