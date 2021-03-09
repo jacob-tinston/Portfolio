@@ -255,7 +255,7 @@ footer {
     section,
     footer {
         margin-top: 200%;
-}
+    }
 
     .line {
         height: 65%;
@@ -285,3 +285,4 @@ footer {
      footer {
         margin-bottom: 65%;
     }
+}
