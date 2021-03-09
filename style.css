@@ -275,13 +275,13 @@ footer {
     }
 
     main {
-        margin: 40% 5% 0 15%;
+        margin: 40% 0 0 15%;
         padding-left: 7%;
     }
 
     /* Footer */
 
      footer {
-        margin-bottom: 60%;
+        margin-bottom: 65%;
     }
 }
