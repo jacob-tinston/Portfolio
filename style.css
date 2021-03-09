@@ -59,7 +59,6 @@ nav {
     justify-self: flex-end;
     align-items: center;
     margin-right: 1%;
-    background-color: #101010;
     z-index: 10;
 }
 
@@ -91,7 +90,6 @@ a:active {
     position: fixed;
     top: 35%;
     background-color: #FFDF6C;
-
 }
 
 li {

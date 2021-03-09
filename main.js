@@ -5,4 +5,4 @@ const showNav = () => {
     nav2.style.display = 'block'
 }
 
-is.addEventListener('click', showNav)
+is.addEventListener('click', showNav);
