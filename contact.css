@@ -1,0 +1,40 @@
+/* Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #101010;
+    color: #FFDF6C;
+    font-family: 'Roboto Mono', monospace;
+}
+
+section,
+footer {
+    margin-top: 40%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    margin: 1% 0;
+}
+
+span {
+    color: whitesmoke;
+}
+
+p {
+    color: #3f3f3f;
+}
