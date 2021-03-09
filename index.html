@@ -11,19 +11,28 @@
     </head>
     <body>
         <a name="top"></a>
-        <header>
+        <header id="one">
             <h1 id="page-identity">.is()</h1>
             <nav>
-                <a href="#top">.is()</a>
-                <a href="#about">.about()</a>
+                <a id="is">.is()</a>
                 <a>.projects()</a>
                 <a>.contact()</a>
                 <a class="icon-ref"><i class="fab fa-linkedin fa-2x"></i></a>
                 <a class="icon-ref" href="https://github.com/jacob-tinston" target="_blank"><i class="fab fa-github fa-2x"></i></a>
             </nav>
         </header>
+        <header id="two">
+            <nav id="sub-nav">
+                <ul>
+                    <li><a href="#name">.name()</a></li>
+                    <li><a href="#about">.about()</a></li>
+                    <li><a>.skills()</a></li>
+                </ul>
+            </nav>
+        </header>
         <div class="circle"></div>
         <div class="line"></div>
+        <a name="name"></a>
         <main>
             <h1><span>name</span>.is()</h1>
             <h2><em>Jacob Tinston</em></h2>
@@ -34,6 +43,22 @@
                 <h1><span>timeInIndustry(<br></span>'1 month'<span>)</span></h1>
                 <h2>Began coding on 1st January 2021</h2>
                 <p>And I've been hooked ever since...</p>
+            </section>
+            <section class="about">
+                <h1><span>Since the start of 2021,</span></h1> 
+                <h2>I've
+                    spent countless hours on the 
+                    Codecademy website, reading all the books 
+                    and building project after project.</h2>
+                <p>All alongside studying economics, 
+                    maths and sciences at college.</p>
+            </section>
+            <section class="skills">
+                <h1><span>my.</span>skills('programming')</h1>
+                <h2>${<span>'Javascript'</span>}</h2>
+                <h2>${<span>'HTML'</span>}</h2>
+                <h2>${<span>'CSS'</span>}</h2>
+                <h2>${<span>'Debugging'</span>}</h2>
             </section>
         </main>
     </body>

@@ -34,7 +34,7 @@ p {
 
 /* Nav Bar */
 
-header {
+#one {
     width: 100%;
     height: auto;
     display: flex;
@@ -79,6 +79,29 @@ a:active {
 
 .icon-ref:hover,
 .icon-ref:active {
+    color: whitesmoke;
+}
+
+#two {
+    display: none;
+    height: 30%;
+    width: auto;
+    position: fixed;
+    top: 35%;
+    background-color: #FFDF6C;
+
+}
+
+li {
+    margin: 28% 5%;
+}
+
+li > a {
+    color: #101010;
+}
+
+li > a:hover,
+li > a:active {
     color: whitesmoke;
 }
 
