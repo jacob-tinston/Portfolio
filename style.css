@@ -16,6 +16,11 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
+section,
+footer {
+    margin-top: 40%;
+}
+
 h1 {
     font-size: 4rem;
 }
@@ -107,6 +112,11 @@ li > a:active {
 
 /* Main */
 
+section,
+footer {
+    margin-top: 60%;
+}
+
 .circle {
     width: 10px;
     height: 10px;
@@ -132,7 +142,6 @@ main {
 }
 
 .about {
-    margin-top: 0%;
     width: 100%;
 }
 
@@ -142,4 +151,10 @@ main {
 
 .project-lnk:hover {
     text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+    margin-bottom: 13%;
 }
