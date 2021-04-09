@@ -5,6 +5,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Status](#status)
+* [Todo](#todo)
 * [Contact](#contact)
 
 ## General info
@@ -19,7 +20,12 @@ This website gets updated regularly and in line with my current ability.
 * Javascript
 
 ## Status
-Project is: _finished_
+Project is: _in-progress_
+
+## Todo
+* Add and anchor to CV file
+* Add link to LinkedIn
+* Regular content updates
 
 ## Contact
 Created by: Jacob  <br/>
