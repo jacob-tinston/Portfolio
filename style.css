@@ -135,7 +135,7 @@ li > a:active {
 
 section,
 footer {
-    margin-top: 60%;
+    margin-top: 40%;
 }
 
 .circle {
@@ -265,7 +265,7 @@ footer {
 
     section,
     footer {
-        margin-top: 200%;
+        margin-top: 100%;
     }
 
     .line {
