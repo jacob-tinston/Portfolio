@@ -50,6 +50,15 @@ p {
     opacity: 1;
 }
 
+.line.reveal {
+    transform: none;
+    transition-delay: .8s;
+}
+
+.line.reveal.revealed {
+    transform: none;
+}
+
 /* Nav Bar */
 
 #one {
