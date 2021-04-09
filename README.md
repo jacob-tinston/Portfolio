@@ -23,6 +23,7 @@ This website gets updated regularly and in line with my current ability.
 Project is: _in-progress_
 
 ## Todo
+* Add projects page
 * Add and anchor to CV file
 * Add link to LinkedIn
 * Regular content updates
