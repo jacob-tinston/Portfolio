@@ -39,6 +39,17 @@ p {
     color: #3f3f3f;
 }
 
+.reveal {
+    transform: translateX(32px);
+    transition: .8s ease-out;
+    opacity: 0;
+}
+
+.reveal.revealed {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 /* Nav Bar */
 
 #one {

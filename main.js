@@ -29,3 +29,19 @@ const hideNavMob = () => {
 
 menu.addEventListener('click', showNavMob);
 cross.addEventListener('click', hideNavMob);
+
+// Reveal items 
+
+const revealItems = document.querySelectorAll(".reveal");
+
+scrollAnim = () => {
+    let windowHt = window.innerHeight;
+    revealItems.forEach(element => {
+        let elPos = element.getBoundingClientRect().top;
+        if(elPos < windowHt/1.3) {
+            element.classList.add('revealed')
+        }
+    })
+};
+document.addEventListener("DOMContentLoaded", scrollAnim);
+window.addEventListener('scroll', scrollAnim);
